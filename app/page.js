@@ -1,7 +1,6 @@
 import sites from "../data/sites.json";
-import SiteCard from "../components/SiteCard";
+import RolodexDrum from "../components/RolodexDrum.js";
 
-// Each category gets its own color, like tabs in a card catalog.
 const CATEGORY_COLORS = {
   "Web App": "#5EEAD4",
   Tool: "#FBBF77",
@@ -14,33 +13,15 @@ const CATEGORY_COLORS = {
 };
 const FALLBACK_COLOR = "#9AA0A8";
 
-function groupByCategory(items) {
-  const map = new Map();
-  items.forEach((site) => {
-    const cat = site.category || "Other";
-    if (!map.has(cat)) map.set(cat, []);
-    map.get(cat).push(site);
-  });
-  return Array.from(map.entries());
-}
-
 export default function Home() {
-  const groups = groupByCategory(sites);
-  let globalIndex = 0;
+  const sitesWithAccent = sites.map((site) => ({
+    ...site,
+    accent: CATEGORY_COLORS[site.category] || FALLBACK_COLOR,
+  }));
 
   return (
-    <main className="relative mx-auto max-w-6xl px-6 py-20 sm:px-10">
-      {/* one deliberate glow, only behind the header */}
-      <div
-        aria-hidden="true"
-        className="pointer-events-none absolute -top-32 left-1/2 h-[420px] w-[720px] -translate-x-1/2 rounded-full opacity-[0.16] blur-[110px]"
-        style={{
-          background:
-            "radial-gradient(circle, #FF6B4A 0%, #6C4CFF 55%, transparent 75%)",
-        }}
-      />
-
-      <header className="relative mb-20 max-w-2xl">
+    <main className="relative">
+      <header className="relative mx-auto max-w-2xl px-6 pt-20 sm:px-10">
         <div className="mb-6 flex items-baseline gap-4">
           <span className="font-display text-7xl leading-none text-ink sm:text-8xl">
             {sites.length}
@@ -53,43 +34,41 @@ export default function Home() {
           Everything I&rsquo;ve made, in one place.
         </h1>
         <p className="mt-4 max-w-md text-sm leading-relaxed text-muted">
-          Every card below is the live site, not a screenshot. Click into one to
-          use it directly, or open it in its own tab.
+          Keep scrolling — the rack turns as you go. Click the front card to use
+          that site directly, or open it in its own tab.
         </p>
       </header>
 
-      {groups.map(([category, items]) => {
-        const color = CATEGORY_COLORS[category] || FALLBACK_COLOR;
-        return (
-          <section key={category} className="relative mb-16">
-            <div className="mb-6 flex items-center gap-3">
+      <RolodexDrum sites={sitesWithAccent} />
+
+      {/* Plain link list: the 3D drum isn't navigable by screen readers, search
+          engines, or anyone with JS disabled, so this keeps every site reachable. */}
+      <nav
+        aria-label="All sites"
+        className="mx-auto max-w-3xl px-6 pb-24 pt-8 sm:px-10"
+      >
+        <h2 className="mb-6 text-sm text-muted">All sites</h2>
+        <ul className="grid grid-cols-1 gap-x-8 gap-y-3 sm:grid-cols-2">
+          {sitesWithAccent.map((site) => (
+            <li key={site.url} className="flex items-baseline gap-3">
               <span
-                className="h-2 w-2 shrink-0 rounded-full"
-                style={{ background: color }}
+                className="h-1.5 w-1.5 shrink-0 rounded-full"
+                style={{ background: site.accent }}
                 aria-hidden="true"
               />
-              <h2 className="text-sm text-ink">{category}</h2>
-              <div className="h-px flex-1 bg-line" />
-              <span className="tabular text-xs text-muted">{items.length}</span>
-            </div>
-
-            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {items.map((site) => {
-                const i = globalIndex;
-                globalIndex += 1;
-                return (
-                  <SiteCard
-                    key={site.url}
-                    site={site}
-                    index={i}
-                    accent={color}
-                  />
-                );
-              })}
-            </div>
-          </section>
-        );
-      })}
+              <a
+                href={site.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-ink underline decoration-line underline-offset-4 hover:decoration-ember"
+              >
+                {site.name}
+              </a>
+              <span className="text-xs text-muted">{site.category}</span>
+            </li>
+          ))}
+        </ul>
+      </nav>
     </main>
   );
 }
