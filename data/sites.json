@@ -1,0 +1,282 @@
+[
+  {
+    "name": "BizMan",
+    "url": "https://biszman.netlify.app",
+    "description": "Business management app",
+    "category": "Web App",
+    "embeddable": true
+  },
+  {
+    "name": "Striker's Hub",
+    "url": "https://strikershub.netlify.app",
+    "description": "Booking system",
+    "category": "Web App",
+    "embeddable": true
+  },
+  {
+    "name": "Amazon Cart Calculator",
+    "url": "https://cartcalculator.netlify.app",
+    "description": "Cart total calculator",
+    "category": "Tool",
+    "embeddable": true
+  },
+  {
+    "name": "Zakaat Calculator",
+    "url": "https://zaakaatcalculator.netlify.app",
+    "description": "Zakat calculator",
+    "category": "Tool",
+    "embeddable": true
+  },
+  {
+    "name": "PricePal",
+    "url": "https://prisepal.netlify.app",
+    "description": "Price comparison tool",
+    "category": "Tool",
+    "embeddable": true
+  },
+  {
+    "name": "NextOnScreen",
+    "url": "https://nextonscreen.netlify.app",
+    "description": "What to watch next",
+    "category": "Web App",
+    "embeddable": true
+  },
+  {
+    "name": "Pulsse",
+    "url": "https://pulsse.netlify.app",
+    "description": "Pulse / health tracker",
+    "category": "Web App",
+    "embeddable": true
+  },
+  {
+    "name": "Push-Up Tracker",
+    "url": "https://pushupptracker.netlify.app",
+    "description": "Fitness tracker",
+    "category": "Tool",
+    "embeddable": true
+  },
+  {
+    "name": "Dumbbell Pro",
+    "url": "https://dumbbellpro.netlify.app",
+    "description": "Workout tracker",
+    "category": "Tool",
+    "embeddable": true
+  },
+  {
+    "name": "Learn Arabic with Faiz",
+    "url": "https://learnarabicwithfaiz.netlify.app",
+    "description": "Arabic learning app",
+    "category": "Education",
+    "embeddable": true
+  },
+  {
+    "name": "Faiz's Analytics",
+    "url": "https://faizsanalytics.netlify.app",
+    "description": "Analytics dashboard",
+    "category": "Dashboard",
+    "embeddable": true
+  },
+  {
+    "name": "Al-Quran Kareem",
+    "url": "https://alqurankareem.netlify.app",
+    "description": "Quran lyrics / recitation",
+    "category": "Education",
+    "embeddable": true
+  },
+  {
+    "name": "Quran Q&A",
+    "url": "https://quran-qanda.netlify.app",
+    "description": "Quran speak & learn",
+    "category": "Education",
+    "embeddable": true
+  },
+  {
+    "name": "Faiz Apps & Services",
+    "url": "https://faiz-apps-and-services.netlify.app",
+    "description": "Apps and services hub",
+    "category": "Portfolio",
+    "embeddable": true
+  },
+  {
+    "name": "Faiz's Library",
+    "url": "https://faizslibrary.netlify.app",
+    "description": "Personal library app",
+    "category": "Web App",
+    "embeddable": true
+  },
+  {
+    "name": "Faiz Media Vault",
+    "url": "https://faizmediavault.netlify.app",
+    "description": "Media storage vault",
+    "category": "Web App",
+    "embeddable": true
+  },
+  {
+    "name": "Bit Byte Data",
+    "url": "https://bitbytedata.netlify.app",
+    "description": "Byte/bin converter",
+    "category": "Tool",
+    "embeddable": true
+  },
+  {
+    "name": "Who's That Character",
+    "url": "https://whosthat-character.netlify.app",
+    "description": "Guess-the-character game",
+    "category": "Game",
+    "embeddable": true
+  },
+  {
+    "name": "Star Gallery",
+    "url": "https://stargallery.netlify.app",
+    "description": "Star spotlight gallery",
+    "category": "Gallery",
+    "embeddable": true
+  },
+  {
+    "name": "Born Same Day",
+    "url": "https://bornsameday.netlify.app",
+    "description": "Famous people born on your date",
+    "category": "Web App",
+    "embeddable": true
+  },
+  {
+    "name": "Internship Assignments Portfolio",
+    "url": "https://internshipassignmentsportfolio.netlify.app",
+    "description": "Assignments portfolio",
+    "category": "Portfolio",
+    "embeddable": true
+  },
+  {
+    "name": "WebPulse",
+    "url": "https://wwebpulse.netlify.app",
+    "description": "Website analytics/monitoring",
+    "category": "Dashboard",
+    "embeddable": true
+  },
+  {
+    "name": "Lissn",
+    "url": "https://lissn.netlify.app",
+    "description": "Listening app",
+    "category": "Web App",
+    "embeddable": true
+  },
+  {
+    "name": "DepGraph",
+    "url": "https://depgraph.netlify.app",
+    "description": "Dependency graph visualizer",
+    "category": "Tool",
+    "embeddable": true
+  },
+  {
+    "name": "Brightify",
+    "url": "https://brightify.netlify.app",
+    "description": "Brightness/image tool",
+    "category": "Tool",
+    "embeddable": true
+  },
+  {
+    "name": "World Globe: Prophets' History",
+    "url": "https://worldglobepwh.netlify.app",
+    "description": "Prophets' history on a globe",
+    "category": "Education",
+    "embeddable": true
+  },
+  {
+    "name": "React Learn",
+    "url": "https://reactlearn-development.netlify.app",
+    "description": "React learning app",
+    "category": "Education",
+    "embeddable": true
+  },
+  {
+    "name": "Buildify",
+    "url": "https://code-buildify.netlify.app",
+    "description": "Code/site builder",
+    "category": "Tool",
+    "embeddable": true
+  },
+  {
+    "name": "UNO Cards",
+    "url": "https://uno-info.netlify.app",
+    "description": "UNO card game info/app",
+    "category": "Game",
+    "embeddable": true
+  },
+  {
+    "name": "Serenity Farmhouse",
+    "url": "https://serenity-farmhouse.netlify.app",
+    "description": "Farmhouse business site",
+    "category": "Business",
+    "embeddable": true
+  },
+  {
+    "name": "PalettePro",
+    "url": "https://paletteproo.netlify.app",
+    "description": "Color palette tool",
+    "category": "Tool",
+    "embeddable": true
+  },
+  {
+    "name": "Business Website",
+    "url": "https://gorgeous-narri.netlify.app",
+    "description": "Business website",
+    "category": "Business",
+    "embeddable": true
+  },
+  {
+    "name": "Faith & Fiqh",
+    "url": "https://faith-fiqh.netlify.app",
+    "description": "Islamic faith & fiqh resource",
+    "category": "Education",
+    "embeddable": true
+  },
+  {
+    "name": "Mohd Faiz \u2014 Portfolio",
+    "url": "https://mohdfaiz.netlify.app",
+    "description": "Personal portfolio site",
+    "category": "Portfolio",
+    "embeddable": true
+  },
+  {
+    "name": "Urbique Developers",
+    "url": "https://urbique-developers.vercel.app",
+    "description": "Real estate / developers site",
+    "category": "Business",
+    "embeddable": true
+  },
+  {
+    "name": "MindfulPath",
+    "url": "https://mindfullpath.vercel.app",
+    "description": "Mindfulness / wellness app",
+    "category": "Web App",
+    "embeddable": true
+  },
+  {
+    "name": "Tasneem Farook",
+    "url": "https://tasneemfarook.vercel.app",
+    "description": "Personal site",
+    "category": "Portfolio",
+    "embeddable": true
+  },
+  {
+    "name": "Mavens Unified Showcase",
+    "url": "https://mavens-unified-showcase.vercel.app",
+    "description": "Project showcase",
+    "category": "Portfolio",
+    "embeddable": true
+  },
+  {
+    "name": "TravelVerse Forge",
+    "url": "https://travel-verse-forge.vercel.app",
+    "description": "Travel planning app",
+    "category": "Web App",
+    "embeddable": true
+  },
+  {
+    "name": "CineInfo",
+    "url": "https://cine-info-eight.vercel.app",
+    "description": "Movie info app",
+    "category": "Web App",
+    "embeddable": true
+  }
+]
