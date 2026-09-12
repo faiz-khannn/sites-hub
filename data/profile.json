@@ -1,0 +1,19 @@
+{
+  "name": "Mohd Faiz",
+  "role": "Software Developer",
+  "eyebrow": "Open to freelance & full-time opportunities",
+  "tagline": "I turn ideas into shipped software.",
+  "bio": "I'm a software developer who builds complete, working products end to end — not just mockups. Every project below started as an idea and ended up live on the internet: web apps, tools, dashboards, learning apps, and a few games along the way.",
+  "location": "India",
+  "skills": ["JavaScript", "React", "Next.js", "Node.js", "Tailwind CSS", "REST APIs", "Firebase", "Git & GitHub"],
+  "stats": [
+    { "value": "39+", "label": "Projects shipped" },
+    { "value": "8", "label": "Categories explored" },
+    { "value": "100%", "label": "Deployed & live" }
+  ],
+  "socials": {
+    "github": "https://github.com/your-username",
+    "linkedin": "https://www.linkedin.com/in/your-username",
+    "email": "mailto:you@example.com"
+  }
+}

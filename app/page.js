@@ -1,5 +1,5 @@
 import sites from "../data/sites.json";
-import RolodexDrum from "../components/RoloDexDrum.js";
+import RolodexDrum from "../components/RolodexDrum.js";
 
 const CATEGORY_COLORS = {
   "Web App": "#5EEAD4",
@@ -20,7 +20,7 @@ export default function Home() {
   }));
 
   return (
-    <main className="relative w-screen h-screen max-h-screen overflow-hidden bg-base text-ink flex flex-col">
+    <main className="relative w-full min-h-screen bg-base text-ink">
       <RolodexDrum sites={sitesWithAccent} />
     </main>
   );

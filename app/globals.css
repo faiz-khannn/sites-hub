@@ -94,6 +94,15 @@ button:focus-visible {
   animation: floatLight 6s ease-in-out infinite;
 }
 
+@keyframes bounceHint {
+  0%, 100% { transform: translateY(0); opacity: 0.55; }
+  50% { transform: translateY(6px); opacity: 1; }
+}
+
+.animate-bounce-hint {
+  animation: bounceHint 1.6s ease-in-out infinite;
+}
+
 @media (prefers-reduced-motion: reduce) {
   * {
     animation-duration: 0.01ms !important;
